@@ -1,11 +1,12 @@
-<?php
+<?php // Start a PHP session
 	session_start();
-	include('dbconnect.php');
+	include('dbconnect.php'); // Include the database connection script
+// Redirect to the login page if the user is not logged in
 	if(!isset($_SESSION['uid'])){
 	header('Location:index.php');
 	}
-	$uid=$_SESSION['uid'];
-	$sql="SELECT * FROM customer_order WHERE uid='$uid'";
+	$uid=$_SESSION['uid']; // Get the user ID from the session
+	$sql="SELECT * FROM customer_order WHERE uid='$uid'";// SQL query to get order details for the user
 	$run_query=mysqli_query($conn,$sql);
 	$row=mysqli_fetch_array($run_query);
 	$trid=$row['tr_id'];
