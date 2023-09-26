@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+// Initialize the Slick carousel
 	$('.one-time').slick({
   dots: true,
   infinite: true,
@@ -11,7 +11,7 @@ $(document).ready(function(){
   arrows: true,
 });
 
-
+// Call functions to load category, brand, and products
 
 	cat();
 	brand();
@@ -26,7 +26,7 @@ $(document).ready(function(){
 			}
 		})
 	}
-
+// Function to load categories via AJAX
 	function brand(){
 		$.ajax({
 			url: "action.php",
@@ -37,7 +37,7 @@ $(document).ready(function(){
 			}
 		})
 	}
-
+// Function to load brands via AJAX
 	function product(){
 		$.ajax({
 			url: "action.php",
