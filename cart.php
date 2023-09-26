@@ -32,10 +32,12 @@
 			<div class="row">
 				<div class="col-md-12" id="cart_msg"></div>
 			</div>
-				<div class="panel panel-primary text-center">
+				<!-- Cart checkout panel -->
+				<div class="panel panel-primary text-center">    
 					<div class="panel-heading">Cart Checkout</div>
 					<div class="panel-body"></div>
 					<div class="row">
+						<!-- Cart item details -->
 						<div class="col-md-2"><b>Action</b></div>
 						<div class="col-md-2"><b>Product Image</b></div>
 						<div class="col-md-2"><b>Product Name</b></div>
@@ -66,6 +68,7 @@
 
 					</div>
 				</div>
+				<!-- Checkout button -->
 				<button class='btn btn-success btn-lg pull-right' id='checkout_btn' data-toggle="modal" data-target="#myModal">Checkout</button>
 			</div>
 
