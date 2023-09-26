@@ -1,6 +1,8 @@
 <?php 
 	session_start();
-	include('dbconnect.php');
+	include('dbconnect.php'); // Include the database connection file
+      
+// Display categories in the navigation
 	if(isset($_POST["category"])){
 		$category_query="SELECT * FROM categories";
 		$run_query=mysqli_query($conn,$category_query);
@@ -15,7 +17,7 @@
 			echo "</div>";
 		}
 	}
-	
+	// Display brands in the navigation
 	if(isset($_POST["brand"])){
 		$category_query="SELECT * FROM brands";
 		$run_query=mysqli_query($conn,$category_query);
@@ -30,7 +32,7 @@
 			echo "</div>";
 		}
 	}
-	if(isset($_POST['page']))
+	if(isset($_POST['page'])) // Pagination
 	{
 		$sql="SELECT * FROM products";
 		$run_query=mysqli_query($conn,$sql);
@@ -43,7 +45,7 @@
 			";
 		}
 	}
-	if(isset($_POST['getProduct'])){
+	if(isset($_POST['getProduct'])){    // Fetch and display products based on various criteria
 
 		$limit=	6;
 		if(isset($_POST['setPage'])){
