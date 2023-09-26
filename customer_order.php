@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+	<!-- Navigation bar -->
 	<div class="navbar navbar-default navbar-fixed-top" id="topnav">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -28,6 +29,7 @@
 		<div class='row'>
 		<div class='col-md-2'></div>
 		<div class='col-md-8'>
+			<!-- Customer order details panel -->
 			<div class="panel panel-default">
   				<div class="panel-heading">Customer Order Details</div>
   				<div class="panel-body">
@@ -49,7 +51,7 @@
 
 	</div>
 
-
+<!-- JavaScript libraries -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="assets/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 	<script src="main.js"></script>
