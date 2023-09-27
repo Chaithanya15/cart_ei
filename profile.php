@@ -72,7 +72,7 @@
 	<!-- Slider Begins -->
 
 	 <div class="one-time">
-	    <div><img src="assets/images/car1.jpg"></div>
+	 
 	    <div><img src="assets/images/car2.jpg"></div>
 	    <div><img src="assets/images/car3.jpg"></div>
   	</div>
