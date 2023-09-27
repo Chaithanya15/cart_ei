@@ -8,7 +8,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>EI-Cart</title>
+	<title>EI_CART</title>
 	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap-3.3.6-dist/css/bootstrap.css">
@@ -21,7 +21,7 @@
 	<div class="navbar navbar-default navbar-fixed-top" id="topnav">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.php" class="navbar-brand">EI - Cart</a>
+				<a href="index.php" class="navbar-brand">EI_CART</a>
 			</div>
 
 			<ul class="nav navbar-nav">
@@ -72,11 +72,12 @@
 		<br><br><br>
 	<!-- Slider Begins -->
 
-	<div class="one-time">
-     
-    <div><img src="assets/images/car2.jpg"></div>
-    <div><img src="assets/images/car3.jpg"></div>
-</div>
+	 <div class="one-time">
+	    <div><img src="assets/images/car1.jpg"></div>
+	    <div><img src="assets/images/car2.jpg"></div>
+	    <div><img src="assets/images/car3.jpg"></div>
+  	</div>
+
 	<!-- Slider ends -->
 
 	<br>
@@ -107,7 +108,6 @@
 						
 					</div>
 				</div>
-
 				<div class="panel panel-info">
 					<div class="panel-heading text-center">--Featured Products--
 						<div class='pull-right'>
@@ -118,15 +118,15 @@
 					<div id="get_product"></div>
 						<!--<div class="col-md-4">
 							<div class="panel panel-info">
-								<div class="panel-heading">Laptop</div>
-								<div class="panel-body"><img src="assets/prod_images/lappy.jpeg"></div>
+								<div class="panel-heading">Samsung Galaxy</div>
+								<div class="panel-body"><img src="assets/prod_images/samsung_galaxy.jpg"></div>
 								<div class="panel-heading">$500.00
 								<button class="btn btn-danger btn-xs" style="float:right;">Add to Cart</button>
 								</div>
 							</div>
 						</div>-->
 					</div>
-					<div class="panel-footer">&copy;EI Exercise</div>
+					<div class="panel-footer">&copy; Educational initiatives</div>
 				</div>
 			</div>
 			<div class="col-md-1"></div>
