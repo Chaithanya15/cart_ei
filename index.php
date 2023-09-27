@@ -1,7 +1,8 @@
 <?php 
 	session_start();
+ // Check if the user is already logged in
 	if(isset($_SESSION['uid'])){
-		header('location:profile.php');
+		header('location:profile.php');   // Redirect to profile page
 	}
  ?>
 <!DOCTYPE html>
