@@ -4,8 +4,8 @@
 
 
 .one-time{
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .slick-prev:before,
@@ -15,22 +15,22 @@
 
 .navbar-brand{
   font-family: Open Sans;
-  font-size: 20%;
+  font-size: 200%;
   font-style: italic;
 }
 
 body{
   font-family: Abel;
-  font-size: 50%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 #topnav{
-  height:5px;
+  height:70px;
 }
 #topnav > * {
   position: relative;
-  top:3px;
+  top:7px;
 }
 #search{
   position: relative;
@@ -38,10 +38,10 @@ body{
 }
 #search_btn{
   position: relative;
-  left:100px;
+  left:360px;
 }
 
 #shoppingcart{
   position: relative;
-  /*right: 160px;*/
+  /*right: 240px;*/
 }
